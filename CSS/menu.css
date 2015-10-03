@@ -1,0 +1,94 @@
+﻿
+#menu, #menu ul
+{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	z-index: 100;
+	text-align: right;
+	padding-right: 50px;
+}
+
+/* sathe aval halate normal */
+#menu li
+{border: solid 1px #994D4D;
+	position: relative;
+	width: 195px;
+	color: black;
+	height: 22px;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+/* sathe aval halate hover */
+
+#menu li:hover
+{
+	background-color: Silver;
+}
+/* sathe dovom halate normal*/
+#menu ul
+{
+	position: absolute;
+	top: 0px;
+	left: -201px;
+	width: 200px;
+	padding: 0;
+	display: none;
+	background-image: url(../Images/b.gif);
+}
+
+#menu ul li
+{	
+
+	float: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+#menu ul li:hover
+{
+}
+#menu li a:link, #menu li a:visited
+{
+	font-weight: bold;
+	color: Black;
+	display: block;
+	font-family: Tahoma;
+	font-size: 9pt;
+	text-align: right;
+	text-decoration: none;
+	padding: 2px;
+	color: Black;
+}
+
+#menu li a:link:hover, #menu li a:visited:hover
+{
+}
+
+
+
+#menu li:hover ul.submenu
+{
+	display: block;
+}
+
+#menu ul.submenu ul
+{
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+#menu ul.submenu li:hover ul
+{
+	display: block;
+}
+
+
+

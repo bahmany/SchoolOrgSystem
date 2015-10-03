@@ -1,0 +1,24 @@
+coin-slider {
+	OVERFLOW: hidden; ZOOM: 1; POSITION: relative
+}
+.coin-slider A {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none; outline: none
+}
+.cs-buttons {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 0px; FLOAT: left; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.cs-buttons A {
+	BORDER-RIGHT: #b8c4cf 1px solid; BORDER-TOP: #b8c4cf 1px solid; FLOAT: left; MARGIN-LEFT: 5px; BORDER-LEFT: #b8c4cf 1px solid; WIDTH: 10px; COLOR: #b8c4cf; TEXT-INDENT: -1000px; BORDER-BOTTOM: #b8c4cf 1px solid; HEIGHT: 10px
+}
+.cs-active {
+	COLOR: #ffffff; BACKGROUND-COLOR: #b8c4cf
+}
+.cs-title {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; WIDTH: 545px; COLOR: #ffffff; PADDING-TOP: 10px; BACKGROUND-COLOR: #000000
+}
+.cs-prev {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px; BACKGROUND-COLOR: #000000
+}
+.cs-next {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px; BACKGROUND-COLOR: #000000
+}
